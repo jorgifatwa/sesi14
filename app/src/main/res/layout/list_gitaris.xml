@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/listNamaGitaris"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Nama Gitaris" />
+
+    <TextView
+        android:id="@+id/listAlamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="Alamat" />
+
+    <TextView
+        android:id="@+id/listUmur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Umur" />
+
+    <TextView
+        android:id="@+id/listTingkat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tingkat" />
+
+
+</LinearLayout>

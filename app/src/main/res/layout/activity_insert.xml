@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".InsertActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID Gitaris"
+        />
+
+    <EditText
+        android:id="@+id/inpIdGitaris"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Masukan ID Gitaris" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama Gitaris" />
+
+    <EditText
+        android:id="@+id/inpNamaGitaris"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Masukan Nama Gitaris" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alamat Gitaris" />
+
+    <EditText
+        android:id="@+id/inpAlamatGitaris"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:hint="Masukan Alamat Pendaki"
+        android:singleLine="true"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Umur" />
+
+    <EditText
+        android:id="@+id/inpUmur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:hint="Masukan Umur"
+        android:singleLine="true"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tingkat" />
+
+    <EditText
+        android:id="@+id/inpTingkat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:hint="Tingkat"
+        android:singleLine="true"/>
+
+
+    <Button
+        android:id="@+id/btn_SimpanData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="simpanGitaris"
+        android:text="Simpan" />
+
+</LinearLayout>
